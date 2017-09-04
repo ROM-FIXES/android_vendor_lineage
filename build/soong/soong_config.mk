@@ -1,3 +1,4 @@
+# Insert new variables inside the Lineage structure
 lineage_soong:
 	$(hide) mkdir -p $(dir $@)
 	$(hide) (\
