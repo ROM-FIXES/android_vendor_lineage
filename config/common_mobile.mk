@@ -61,3 +61,10 @@ endif
 # Media
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     media.recorder.show_manufacturer_and_model=true
+
+# Long screenshot
+PRODUCT_PACKAGES += \
+    Longshot
+
+PRODUCT_COPY_FILES += \
+    vendor/lineage/config/privapp-permissions-nlos.xml:system/etc/permissions/privapp-permissions-nlos.xml
